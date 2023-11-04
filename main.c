@@ -2,8 +2,8 @@
 #include "freertos/task.h"
 #include "driver/gpio.h"
 
-#define LED_PIN     2
-#define SWITCH_PIN  4
+#define LED_PIN     4
+#define SWITCH_PIN  2
 
 void app_main() {
     // Configure LED GPIO
